@@ -43,6 +43,7 @@ function Form() {
           </label>
           <input
             type="text"
+            autoComplete="off"
             value={userPatient.patient}
             onChange={handleInput}
             name="patient"
@@ -56,6 +57,7 @@ function Form() {
           </label>
           <input
             type="text"
+            autoComplete="off"
             value={userPatient.symptom}
             onChange={handleInput}
             name="symptom"
@@ -69,6 +71,7 @@ function Form() {
           </label>
           <select
             id="doctor"
+            autoComplete="off"
             value={userPatient.consultant}
             onClick={handleInput}
             name="doctor"
@@ -86,6 +89,7 @@ function Form() {
           </label>
           <input
             type="text"
+            autoComplete="off"
             value={userPatient.phone}
             onChange={handleInput}
             name="phone"
@@ -99,6 +103,7 @@ function Form() {
           </label>
           <input
             type="text"
+            autoComplete="off"
             value={userPatient.cost}
             onChange={handleInput}
             name="cost"
